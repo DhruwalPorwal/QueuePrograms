@@ -28,3 +28,18 @@ void delete()
 		front=front+1;
 	}
 }
+void traverse()
+{
+	if(front==-1)
+	{
+		printf("Queue is Empty. Insert an element first");
+	}
+	else
+	{
+		printf("Elements in queue are:\n");
+		for(i=front;i<=rear;i++)
+		{
+			printf("%d\n",queue[i]);
+		}
+	}
+}
